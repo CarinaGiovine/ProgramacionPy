@@ -48,7 +48,7 @@ class Empleado():
     def Mostrar_Det (self):
         print("Sueldo Base para el empleado ", self.codigo, "es de: $",self.sueldo_base)
         print ("El sueldo bruto es de: $ ",self.calculo)
-        print ("Las retenciones por ser casado y tener hijos es de: $",round(self.calculo*(self.retxhijos + self.retxcasa )),2)
+        print ("Las retenciones por ser casado y tener hijos es de: $",round(self.calculo*(self.retxhijos + self.retxcasa ),2))
         print("El sueldo neto queda es $",self.neto)
         
 e=Empleado(12,80000,1000,15,1,3)
