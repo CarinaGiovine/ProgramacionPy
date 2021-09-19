@@ -43,7 +43,7 @@ print("la suma de los valores ingresados es: ", suma)
 prom=suma/cant
 print("El promedio de los valores es: ",suma/cant)
 
-
+'''
 #funcion que muestra los valores ingresados menores que 7
 def mayor7(lista):return lista<7
 t=filter(mayor7, lista)
@@ -52,3 +52,17 @@ print("El listado de números ingresados que cumplen con el requisito de ser men
 def mayor_prom(lista):return lista > prom
 to=filter(mayor_prom, lista)
 print("El listado de valores ingresados que son superiores al promedio son: ",list(to))
+'''
+valores=[]
+for i in lista:
+    if i < 7:
+        valores.append(i)
+print("Los valores ingresados menor que 7 son: ", valores)
+prom_mayor=[]
+for i in lista:
+    if i > prom:
+        prom_mayor.append(i)
+print("Los valores ingresados mayores al promedio son: ",prom_mayor)
+
+print("Esto es todo amigos!")
+        
