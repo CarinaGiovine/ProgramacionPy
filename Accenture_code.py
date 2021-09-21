@@ -37,11 +37,12 @@ while num != -1:
 cant=len(lista)
 print("La cantidad de valores que se han ingresado es: ", cant)
 print("Se ingresaron lo siguientes números en este orden: ",lista)
-print("La lista de valores en orden inverso es: ", lista.reverse())
+lista.reverse()
+print("La lista de valores en orden inverso es: ", lista)
 suma=sum(lista)
 print("la suma de los valores ingresados es: ", suma)
 prom=suma/cant
-print("El promedio de los valores es: ",suma/cant)
+print("El promedio de los valores es: ",prom)
 
 '''
 #funcion que muestra los valores ingresados menores que 7
